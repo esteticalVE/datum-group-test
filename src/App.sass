@@ -1,0 +1,100 @@
+$base-white: #ffff
+$base-gray: #8E8C84
+$primary: #325d88
+
+.App
+  text-align: center
+
+.layout-wrapper
+  width: 100%
+  min-height: 100vh
+  background-color: beige
+  display: flex
+  justify-content: center
+  align-items: center
+
+ul
+  position: absolute
+  z-index: 1
+  right: 50px
+  list-style: none
+
+li
+  cursor: pointer
+  margin: 10px 0px
+  background-color: $base-white
+  max-width: 300px
+  border-radius: 10px
+  p
+    font-size: 14px
+
+
+.mark-title-wrapper
+  background-color: $base-gray
+  height: 30px
+  color: $base-white
+
+.mark-note-wrapper
+  background-color: $base-white
+  border-bottom-left-radius: 5px
+
+.paragraph
+  font-size: 24px
+
+#map
+  width: 100%
+  height: 100vh
+
+.custom-mouse-position
+  bottom: 48px
+  left: 16px
+  position: absolute
+  color: #ffffff
+  font-size: 20px
+  -webkit-text-stroke-width: 1px
+  -webkit-text-stroke-color: black
+
+.map
+  height: 100%
+
+
+
+
+.popup-content
+  position: absolute
+  background-color: white
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2)
+  padding: 15px
+  border-radius: 10px
+  border: 1px solid #cccccc
+  max-width: 150px
+  bottom: 10px
+
+.map-button-draw-l
+  position: absolute
+  bottom: 100px
+  left: 18px
+  z-index: 1
+
+.map-button-draw-s
+  position: absolute
+  bottom: 150px
+  left: 18px
+  z-index: 1
+
+.map-button-cancel-l
+  position: absolute
+  bottom: 100px
+  left: 190px
+  z-index: 1
+
+.map-button-cancel-s
+  position: absolute
+  bottom: 150px
+  left: 190px
+  z-index: 1
+
+.map-button-home
+  position: absolute
+  top: 10px
+  z-index: 1

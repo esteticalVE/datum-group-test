@@ -1,0 +1,5 @@
+export { default as church } from './church.png'
+export { default as library } from './library.png'
+export { default as park } from './park.png'
+export { default as soccer } from './soccer-field.png'
+export { default as pool } from './swimming-pool.png'
